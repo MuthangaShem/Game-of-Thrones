@@ -1,8 +1,53 @@
-div.dice{
+body, html{
+	padding: 0;
+	margin:0;
+}
+
+.title{
+/*	padding-top: 150px;
+    padding-right:50px;
+*/    text-align: center;
+    text-transform:uppercase;
+    font-family: 'Hind Siliguri', Open Sans;
+    color: white;
+    font-size: 100px;
+}
+
+.dice{
 	float: left;
 	width: 32px;
 	font-size: 24px;
 	text-align: center;
 	margin:5px;
 	background-color: #F5F5F5;
+}
+
+
+#pass, #pass2{
+	margin: 20px;
+	background-color:#0c2aec;
+	display:inline-block;
+	color:#ffffff;
+	font-size:28px;
+	font-weight: 500;
+	text-decoration:none;
+	border-radius: 5px
+}
+
+#dice, #dice2{
+	margin: 20px;
+	background-color:#0c2aec;
+	display:inline-block;
+	color:#ffffff;
+	font-size:28px;
+	font-weight: 500;
+	text-decoration:none;
+	border-radius: 5px
+}
+
+#col1{
+	opacity: ;
+}
+#col2{
+	opacity: ;
 }
